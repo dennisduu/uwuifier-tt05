@@ -27,7 +27,7 @@ documentation:
   author:       "Anish Singhani"      # Your name
   title:        "UART uwuifier"      # Project title
   language:     "SystemVerilog" # other examples include Verilog, Amaranth, VHDL, etc
-  description:  ""      # Short description of what your project does
+  description:  "Operates on a UART signal and uwuifies it"      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
