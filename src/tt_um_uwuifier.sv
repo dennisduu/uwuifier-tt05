@@ -17,11 +17,12 @@ module tt_um_uwuifier (
     ) dut (
         .clk(clk),
         .rst(!rst_n),
-        .rx(ui_in[0]),
-        .tx(uo_out[0])
+        .rx(ui_in[3]),
+        .tx(uo_out[4])
     );
 
-    assign uo_out[7:1] = '0;
+    assign uo_out[7:5] = '0;
+    assign uo_out[3:0] = '0;
     assign uio_oe[7:0] = '0;
     assign uio_out[7:0] = '0;
 
