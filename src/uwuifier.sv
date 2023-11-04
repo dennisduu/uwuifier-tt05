@@ -29,6 +29,8 @@ module uwuifier #(
 
     assign dbg[3:0] = state;
     always_ff @(posedge clk) if (urx_valid) dbg[15:8] <= urx_data;
+    assign dbg[23:16] = '0;
+    assign dbg[7:4] = '0;
 
 
     always_ff @(posedge clk) begin
