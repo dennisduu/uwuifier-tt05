@@ -12,6 +12,7 @@ module uwuifier #(
     input logic rx,
     output logic tx
 ); 
+    
 
     logic [7:0] utx_data;
     logic utx_ready, utx_valid;
